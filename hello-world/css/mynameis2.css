@@ -1,0 +1,77 @@
+body {
+    background-color: #370B00;
+}
+
+h1 {
+    color: #FFE19E;
+    text-align: center;
+    font-family: "Tahoma";
+    font-size: 40px;
+}
+
+p {
+    font-family: "arno";
+    font-size: 17px;
+    color: #FFE19E;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em
+}
+
+img {
+   display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+a:link {
+    font-family: "Tahoma";
+    color: white ;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 47%;
+    margin-top: auto;
+}
+
+a:visited {
+    font-family: "Tahoma";
+    color: white ;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 47%;
+    margin-top: auto;
+}
+
+a:hover {
+    background-color: black;
+    color: #126F84;
+}
+
+a:active {
+    background-color: black;
+    color: #126F84;
+} 
+
+#adam {
+
+ float: right;
+ margin-right: 200px;
+
+
+}
+
+#onlylovers {
+
+ float: left;
+ margin-left: 100px;
+
+
+}
