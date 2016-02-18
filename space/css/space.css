@@ -1,0 +1,10 @@
+
+#circle {
+	width: 150px;
+	height: 150px;
+	background: #d8d8d8;
+	border-radius: 75px;
+	position: static;
+	margin-top: 309px;
+	margin-left: 309px;
+}

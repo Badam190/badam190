@@ -1,0 +1,101 @@
+
+
+.square {
+	width: 768px;
+	height: 768px;
+	background: #40443c;
+	margin: 0 auto 0 auto;
+	position: relative;
+}
+
+#circle {
+	width: 150px;
+	height: 150px;
+	background: #d8d8d8;
+	border-radius: 75px;
+	position: static;
+	margin-top: 250px;
+	margin-left: 0px;
+}
+
+.s1 {
+	width: 512px;
+	height: 256px;
+	background-color: #b6b7b0;
+	margin-left: 0px;
+	position: absolute;
+	margin-top: 512px;
+
+}
+
+.s5 {
+	width: 412px;
+	height: 156px;
+	background-color: #40443c;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 562px;
+}
+
+.s2 {
+	width: 256px;
+	height: 512px;
+	background-color: #202c28;
+	position: absolute;
+	margin-left: 512px;
+	margin-top: -256px;
+}
+
+.s6 {
+	width: 156px;
+	height: 412px;
+	background-color: #21302b;
+	position: absolute;
+	margin-left: 512px;
+	margin-top: -256px;
+
+}
+
+.s3 {
+	width: 512px;
+	height: 256px;
+	background-color: #495157;
+	margin-left: -256px;
+	position: absolute;
+	margin-top: -256px ;
+}
+
+.s7 {
+	width: 412px;
+	height: 156px;
+	background-color: #21302b;
+	position: absolute;
+	margin-left: -256px;
+	margin-top: -256px;
+}
+
+.s4 {
+	width: 256px;
+	height: 512px;
+	background-color: #b0ab96;
+	margin-left: -256px;
+	position: absolute;
+	margin-top: 0px ;
+}
+
+.s8 {
+	width: 156px;
+	height: 412px;
+	background-color: #cfcfcb;
+	position: absolute;
+	margin-left: -256px;
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
+
