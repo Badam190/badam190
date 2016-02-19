@@ -1,0 +1,40 @@
+body {
+    background-color: #C9C4C4;
+}
+
+h1 {
+    color: #000000;
+    text-align: left;
+    font-family: "Helvetica";
+    font-size: 40px;
+}
+
+a:link {
+    font-family: "Helvetica";
+    color: white ;
+    padding: 0px 20px;
+    text-decoration: none;
+    /*display: inline-block;*/
+ }
+
+a:visited {
+    font-family: "Tahoma";
+    color: white ;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 47%;
+    margin-top: auto;
+}
+
+a:hover {
+    background-color: none;
+    color: #2E355A;
+}
+
+a:active {
+    background-color: none;
+    color: #FF006F;
+} 
