@@ -44,7 +44,7 @@ body {
 }
 
 .line { 
-	width: 441px;
+	width: 445px;
 	height: 2px;
 	background-color: #000000;
 	left: 0px;
@@ -54,7 +54,7 @@ body {
 }
 
 .line2 {
-	width: 745px;
+	width: 749px;
 	height: 2px;
 	background-color: #000000;
 	bottom: 400px;
