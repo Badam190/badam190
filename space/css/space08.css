@@ -1,37 +1,193 @@
+body { 
+	  display: block;
+	}
 
-#circle {
-	width: 160px;
-	height: 160px;
-	background: #000000;
-	border-radius: 80px;
-	position: fixed;
-	margin-top: 20px;
-	margin-left: 20px;
+.container {
+  width: 100%;
+  height: 100%;
+  background: none;
+  position: relative;
+  border: px solid black;
+  margin-left: 20px;
+  margin-top: 20px;
+
 }
 
-#rect {
+.rect {
 	width: 830px;
 	height: 130px;
-	background: #000000;
+	background-color: #000000;
+ 	right: 0px;
 	position: absolute;
-	/*margin-top: 0px;*/
-	/*margin-left: 0px;*/
-	margin-top: 500px;
-	margin-left: 300px;
+	bottom: 70px;
 }
+
+.image {
+	display: none;
+	position: fixed;
+	bottom: 230px;
+	left: 695px;
+}
+
+.hotspot {
+	font-family: "Avenir";
+	font-size: 14px;
+	color: #FFFFFF;
+	left: 430px;
+	position: fixed;
+	bottom: 80px;
+}
+
+.hotspot:hover ~ .image { 
+	display: inline;
+}
+
+
+.line { 
+	width: 735px;
+	height: 2px;
+	background-color: #000000;
+	right: 110px;
+	position: fixed;
+	bottom: 55px;
+}
+
+.line2 { 
+	width: 2px;
+	height: 162px;
+	background-color: #000000;
+	position: fixed;
+	right: 845px;
+	bottom: 55px;
+
+}
+
+.line3 {
+	width: 645px;
+	height: 2px;
+	background-color: #000000;
+	right: 200px;
+	bottom: 215px;
+	position: fixed;
+
+}
+
+.line4 {
+	width: 2px;
+	height: 465px;
+	background-color: #000000;
+	right: 200px;
+	top: 0px;
+	position: fixed;
+}
+
+.whiteline {
+	width: 2px;
+	height: 40px;
+	background-color: #FFFFFF;
+	right: 110px;
+	bottom: 70px;
+	position: fixed;
+
+}
+
+.whiteline2 {
+	width: 40px;
+	height: 2px;
+	background-color: #FFFFFF;
+	right: 70px;
+	bottom: 108px;
+	position: fixed;
+
+}
+
+.shortline {
+	width: 2px;
+	height: 15px;
+	background-color: #000000;
+	right: 110px;
+	bottom: 55px;
+	position: fixed;
+
+}
+.small-round {
+	width:25%;
+	height: 100px;
+}
+
+
+.small-round-circle {
+	width: 42px;
+	height: 42px;
+    border-radius: 42px;
+    overflow:hidden;
+    background-color: white;
+    position: fixed;
+  	right: 30px;
+	bottom: 90px;
+}
+
+.small-round-circle:hover {
+	background:#F1F1F1;
+}
+
+.small-round a {
+    display:block;
+	float:left;
+	width:100%;
+	line-height:1em;
+	margin-top:-0.5em;
+}	
+
+.back-button {
+	width:25%;
+	height: 100px;
+}
+
+.back-button-circle {
+	width: 42px;
+	height: 42px;
+    border-radius: 42px;
+    overflow:hidden;
+    background-color: #2f6db8;
+    position: fixed;
+    bottom: 22px;
+    left: 20px;
+}
+
+.back-button-circle:hover {
+	background:#4f82cc;
+}
+
+.back-button a {
+    display:block;
+	float:left;
+	width:100%;
+	line-height:1em;
+	margin-top:-0.5em;
+}	
 
 .round-button {
 	width:25%;
 }
+
 .round-button-circle {
-	width: 50px;
-	height: 50px;
-	background-color: #FFFFFF;
-    border-radius: 50px;
-	border:10px solid #FFFFFF;
+	width: 160px;
+	height: 160px;
+    border-radius: 160px;
     overflow:hidden;
-    box-shadow: 0 0 3px gray;
+    background-color: black;
+    position: fixed;
+    top: 20px;
+    left: 20px;
 }
+
+
+
+.round-button-circle:hover {
+	background:#1F1F1F;
+}
+
 .round-button a {
     display:block;
 	float:left;
@@ -40,4 +196,4 @@
     padding-bottom:50%;
 	line-height:1em;
 	margin-top:-0.5em;
-}
+}	

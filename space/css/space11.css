@@ -1,37 +1,102 @@
+body { 
+	  display: block;
+	}
 
-#circle {
-	width: 160px;
-	height: 160px;
-	background: #000000;
-	border-radius: 80px;
-	position: fixed;
-	margin-top: 20px;
-	margin-left: 20px;
+.container {
+  width: 100%;
+  height: 100%;
+  background: none;
+  position: relative;
+  border: px solid black;
+  margin-left: 20px;
+  margin-top: 20px;
+
 }
 
-#rect {
-	width: 830px;
+.rect {
+	width: 450px;
 	height: 130px;
-	background: #000000;
+	background-color: #000000;
+	position: fixed;
+	bottom: 180px;
+	left: 305px;
+}
+
+.image {
+	display: none;
+	position: fixed;
+	top: 60px;
+	left: 510px;
+}
+
+.hotspot {
+	font-family: "Avenir";
+	font-size: 14px;
+	color: #FFFFFF;
+	left: 320px;
+	position: fixed;
+	bottom: 190px;
+
+}
+
+.hotspot:hover ~ .image { 
+	display: inline;
+}
+
+.line1 {
+	width: 2px;
+	height: 522px;
+	background-color: #000000;
+	position: fixed;
+	top: 0px;
+	left: 770px;
+}
+
+.line2 {
+	width: 2px;
+	height: 172px;
+	background-color: #000000;
+	position: fixed;
+	bottom: 160px;
+	left: 290px;
+}
+
+.line3 {
+	width: 480px;
+	height: 2px;
+	background-color: #000000;
 	position: absolute;
-	/*margin-top: 0px;*/
-	/*margin-left: 0px;*/
-	margin-top: 500px;
-	margin-left: 300px;
+	bottom: 160px;
+	left: 290px;
+}
+
+.line4 {
+	width: 480px;
+	height: 2px;
+	background-color: #000000;
+	position: absolute;
+	bottom: 330px;
+	left: 290px;
 }
 
 .round-button {
 	width:25%;
 }
+
 .round-button-circle {
-	width: 50px;
-	height: 50px;
-	background-color: #FFFFFF;
-    border-radius: 50px;
-	border:10px solid #FFFFFF;
+	width: 160px;
+	height: 160px;
+    border-radius: 160px;
     overflow:hidden;
-    box-shadow: 0 0 3px gray;
+    
+    background-color: black;
 }
+
+.round-button-circle:hover {
+	background:#1F1F1F;
+}
+
+
 .round-button a {
     display:block;
 	float:left;
@@ -40,4 +105,35 @@
     padding-bottom:50%;
 	line-height:1em;
 	margin-top:-0.5em;
+}	
+
+.back-button {
+	width:25%;
+	height: 100px;
 }
+
+.back-button-circle {
+	width: 42px;
+	height: 42px;
+    border-radius: 42px;
+    overflow:hidden;
+    background-color: #2f6db8;
+    position: fixed;
+    bottom: 22px;
+    left: 20px;
+}
+
+.back-button-circle:hover {
+	background:#4f82cc;
+}
+
+.back-button a {
+    display:block;
+	float:left;
+	width:100%;
+	line-height:1em;
+	margin-top:-0.5em;
+}	
+
+
+
