@@ -21,25 +21,19 @@
 }
 
 .vertical { 
-	width: 20px;
+	width: 30px;
 	height: 200px;
 }
 
 .horizontal {
 	width: 150px;
-	height: 200px;
+	height: 30px;
 }
 
 .black { background: #000; }
 .red { background: #f00; }
 .blue { background: #00f; }
 .yellow { background: #ff0; }
-
-.a-left { top: 0; left: 0;
-/*	z-index: 5;*/ }
-.a-right { top: 0; right: 0; }
-.a-top { top: 0; left: 0; }
-.a-mid { top: 85px; left: 0; }
 
 
 /*
