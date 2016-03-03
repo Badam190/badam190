@@ -21,7 +21,7 @@
 }
 
 .vertical { 
-	width: 30px;
+	width: 20px;
 	height: 200px;
 }
 
@@ -35,9 +35,8 @@
 .blue { background: #00f; }
 .yellow { background: #ff0; }
 
-.a-left{ top: 0; left: 0;
-/*	z-index: 5;*/
-}
+.a-left { top: 0; left: 0;
+/*	z-index: 5;*/ }
 .a-right { top: 0; right: 0; }
 .a-top { top: 0; left: 0; }
 .a-mid { top: 85px; left: 0; }
