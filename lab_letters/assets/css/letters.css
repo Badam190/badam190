@@ -1,0 +1,86 @@
+.word-wrapper {
+	display: inline-block;
+	margin-right: 60px;
+}
+
+
+.letter-wrapper {
+	display: inline-block;
+	margin: 0 15px 60px 15px;
+	/* right top bottom left*/
+}
+
+.letter {
+	width: 150px;
+	height: 200px;
+	/*background: #00FF00;*/
+	position: relative;
+}
+.bar {
+	position: absolute;
+}
+
+.vertical { 
+	width: 30px;
+	height: 200px;
+}
+
+.horizontal {
+	width: 150px;
+	height: 200px;
+}
+
+.black { background: #000; }
+.red { background: #f00; }
+.blue { background: #00f; }
+.yellow { background: #ff0; }
+
+.a-left{ top: 0; left: 0;
+/*	z-index: 5;*/
+}
+.a-right { top: 0; right: 0; }
+.a-top { top: 0; left: 0; }
+.a-mid { top: 85px; left: 0; }
+
+
+/*
+notes 
+when the right vertical bar was under the left, it was just under it 
+unless there was a display: inline block;
+to make the yellow bar all the way on the right of the 
+green .letter .... positioning 
+
+Positioning
+Static
+Fixed
+Absolute
+Relative
+
+We rarely need to use static because it is the default 
+poisition.
+
+Relative - show up relative to where it would normally show up
+in the document 
+
+Absolute - it takes it out of the flow of the document and places it
+from the top left corner of the page. 
+if its right: 10px; - No matter how much you 
+move the page from the right, it will stay 10 px from the border. 
+
+Fixed - its always in one spot on the window even if you scroll.
+
+Relative and Absolute - they play off of each other. 
+
+______
+z-index ---> it is cumulative throughout the site. it takes it out of 
+the flow of the document, it doesnt care what everyone else is doing.
+So when z-index: 5; for the left-vertical-bar - the bar went on top of 
+all the other shapes.
+
+_________
+without inline-block, the shapes will stack onto eachother
+
+every piece of letter, there would be the same vertical or bar or 
+horizontal attributed added to them. 
+
+*/
