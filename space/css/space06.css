@@ -78,7 +78,6 @@ body {
 
 }
 
-
 .line3 {
 	width: 374px;
 	height: 2px;
@@ -88,6 +87,25 @@ body {
 	top: 384px;
 }
 
+.line4 {
+	width: 360px;
+	height: 1px;
+	background-color: #000000;
+	right: 0px;
+	bottom: 390px;
+	position: fixed;
+
+}
+
+.triangle {
+	width: 80px;
+	height: 0px;
+	border: 15px solid transparent;
+	border-right: 20px solid #000;
+	position: fixed;
+	bottom: 375px;
+	right: 350px;
+}
 
 .whiteline {
 	width: 2px;

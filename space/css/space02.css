@@ -83,6 +83,35 @@ body {
 	position: fixed;
 }
 
+.line5 {
+	width: 1px;
+	height: 455px;
+	background-color: #000000;
+	left: 505px;
+	top: 0px;
+	position: fixed;
+}
+
+.line6 {
+	width: 120px;
+	height: 1px;
+	background-color: #000000;
+	left: 385px;
+	bottom: 227px;
+	position: fixed;
+
+}
+
+.triangle {
+	width: 80px;
+	height: 0px;
+	border: 15px solid transparent;
+	border-right: 20px solid #000;
+	position: fixed;
+	bottom: 212px;
+	left: 275px;
+}
+
 .whiteline {
 	width: 40px;
 	height: 2px;
@@ -137,35 +166,31 @@ body {
 	line-height:1em;
 	margin-top:-0.5em;
 }	
-
-.back-button {
-	width:25%;
-	height: 100px;
+.arrow-left {
+	width: 25%;
 }
 
-.back-button-circle {
-	width: 42px;
-	height: 42px;
-    border-radius: 42px;
-    overflow:hidden;
-    background-color: #2f6db8;
-    position: fixed;
-    bottom: 22px;
-    left: 20px;
+.arrow-left-button {
+	width: 0; 
+	height: 0; 
+	border: 30px solid transparent;
+	border-right: 20px solid #2f6db8;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
 }
 
-.back-button-circle:hover {
-	background:#4f82cc;
+.arrow-left-button:hover {
+	border-right: 20px solid #4f82cc;
 }
 
-.back-button a {
+.arrow-left a {
     display:block;
 	float:left;
 	width:100%;
 	line-height:1em;
 	margin-top:-0.5em;
 }	
-
 
 .round-button {
 	width:25%;

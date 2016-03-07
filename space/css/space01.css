@@ -13,8 +13,6 @@ body {
 
 }
 
-
-
 .rect {
 	width: 830px;
 	height: 130px;
@@ -45,8 +43,7 @@ body {
 	display: inline;
 }
 
-
-.line { 
+.line1 { 
 	width: 2px;
 	height: 300px;
 	background-color: #000000;
@@ -62,6 +59,34 @@ body {
 	right: 140px;
 	position: fixed;
 	bottom: 300px;
+}
+
+.line3 {
+	width: 500px;
+	height: 1px;
+	background-color: #000;
+	position: fixed;
+	left: 0px;
+	bottom: 75px;
+}
+
+.line4 { 
+	width: 1px;
+	height: 60px;
+	background-color: #000000;
+	position: fixed;
+	left: 500px;
+	bottom: 75px;
+}
+
+.triangle {
+	width: 0px;
+	height: 80px;
+	border: 15px solid transparent;
+	border-bottom: 20px solid #000;
+	position: fixed;
+	bottom: 125px;
+	left: 486px;
 }
 
 .shortline {

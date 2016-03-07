@@ -81,6 +81,36 @@ body {
 	position: fixed;
 }
 
+.line5 {
+	width: 575px;
+	height: 1px;
+	background-color: #000000;
+	left: 0px;
+	bottom: 290px;
+	position: fixed;
+}
+
+.line6 {
+	width: 1px;
+	height: 60px;
+	background-color: #000000;
+	left: 575px;
+	bottom: 231px;
+	position: fixed;
+
+}
+
+.triangle {
+	width: 0px;
+	height: 80px;
+	border: 15px solid transparent;
+	border-top: 20px solid #000;
+	position: fixed;
+	bottom:130px;
+	left: 560px;
+}
+
+
 .whiteline {
 	width: 2px;
 	height: 40px;

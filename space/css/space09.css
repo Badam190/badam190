@@ -64,7 +64,6 @@ body {
 
 }
 
-
 .line3 {
 	width: 400px;
 	height: 2px;
@@ -72,6 +71,35 @@ body {
 	left: 0px;
 	position: fixed;
 	top: 540px;
+}
+
+.line5 {
+	width: 1px;
+	height: 480px;
+	background-color: #000000;
+	left: 255px;
+	top: 0px;
+	position: fixed;
+}
+
+.line6 {
+	width: 100px;
+	height: 1px;
+	background-color: #000000;
+	left: 255px;
+	bottom: 202px;
+	position: fixed;
+
+}
+
+.triangle {
+	width: 80px;
+	height: 0px;
+	border: 15px solid transparent;
+	border-left: 20px solid #000;
+	position: fixed;
+	bottom: 187px;
+	left: 350px;
 }
 
 .whiteline {

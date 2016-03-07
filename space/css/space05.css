@@ -81,6 +81,35 @@ body {
 
 }
 
+.line5 {
+	width: 1px;
+	height: 540px;
+	background-color: #000000;
+	left: 255px;
+	top: 0px;
+	position: fixed;
+}
+
+.line6 {
+	width: 160px;
+	height: 1px;
+	background-color: #000000;
+	left: 255px;
+	bottom: 142px;
+	position: fixed;
+
+}
+
+.triangle {
+	width: 80px;
+	height: 0px;
+	border: 15px solid transparent;
+	border-left: 20px solid #000;
+	position: fixed;
+	bottom: 127px;
+	left: 410px;
+}
+
 .whiteline {
 	width: 2px;
 	height: 40px;

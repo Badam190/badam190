@@ -80,6 +80,35 @@ body {
 
 }
 
+.line5 {
+	width: 1px;
+	height: 355px;
+	background-color: #000000;
+	left: 275px;
+	top: 0px;
+	position: fixed;
+}
+
+.line6 {
+	width: 80px;
+	height: 1px;
+	background-color: #000000;
+	left: 275px;
+	bottom: 327px;
+	position: fixed;
+
+}
+
+.triangle {
+	width: 80px;
+	height: 0px;
+	border: 15px solid transparent;
+	border-left: 20px solid #000;
+	position: fixed;
+	bottom: 312px;
+	left: 350px;
+}
+
 .whiteline {
 	width: 2px;
 	height: 40px;
@@ -134,27 +163,26 @@ body {
 	margin-top:-0.5em;
 }	
 
-.back-button {
+.arrow-left {
 	width:25%;
 	height: 100px;
 }
 
-.back-button-circle {
-	width: 42px;
-	height: 42px;
-    border-radius: 42px;
-    overflow:hidden;
-    background-color: #2f6db8;
-    position: fixed;
-    bottom: 22px;
-    left: 20px;
+.arrow-left-button{
+	width: 0; 
+	height: 0; 
+	border: 10px solid transparent;
+	border-right: 20px solid #2f6db8;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
 }
 
-.back-button-circle:hover {
+.arrow-left-button:hover {
 	background:#4f82cc;
 }
 
-.back-button a {
+.arrow-left a {
     display:block;
 	float:left;
 	width:100%;

@@ -71,6 +71,36 @@ body {
 	right: 804px;
 	bottom: 0px;
 }
+
+
+.line4 {
+	width: 1px;
+	height: 50px;
+	background-color: #000000;
+	left: 205px;
+	bottom: 150px;
+	position: fixed;
+}
+
+.line5 {
+	width: 1043px;
+	height: 1px;
+	background-color: #000000;
+	right: 0px;
+	bottom: 150px;
+	position: fixed;
+
+}
+
+.triangle {
+	width: 0px;
+	height: 80px;
+	border: 15px solid transparent;
+	border-bottom: 20px solid #000;
+	position: fixed;
+	bottom: 187px;
+	left: 190px;
+}
 .whiteline {
 	width: 2px;
 	height: 342px;
@@ -108,7 +138,7 @@ body {
 }
 
 .small-round-circle:hover {
-	background:#F1F1F1;
+	background:#ced4df;
 }
 
 .small-round a {
