@@ -173,7 +173,7 @@ body {
 .arrow-left-button {
 	width: 0; 
 	height: 0; 
-	border: 30px solid transparent;
+	border: 10px solid transparent;
 	border-right: 20px solid #2f6db8;
 	position: fixed;
 	bottom: 10px;
@@ -207,8 +207,6 @@ body {
     left: 20px;
 }
 
-
-
 .round-button-circle:hover {
 	background:#1F1F1F;
 }
@@ -222,5 +220,9 @@ body {
 	line-height:1em;
 	margin-top:-0.5em;
 }	
+
+/*width: calc(100% - 200px) 
+has to be a space around the minus */
+
 
 

@@ -164,11 +164,10 @@ body {
 }	
 
 .arrow-left {
-	width:25%;
-	height: 100px;
+	width: 25%;
 }
 
-.arrow-left-button{
+.arrow-left-button {
 	width: 0; 
 	height: 0; 
 	border: 10px solid transparent;
@@ -179,7 +178,7 @@ body {
 }
 
 .arrow-left-button:hover {
-	background:#4f82cc;
+	border-right: 20px solid #4f82cc;
 }
 
 .arrow-left a {
@@ -188,7 +187,7 @@ body {
 	width:100%;
 	line-height:1em;
 	margin-top:-0.5em;
-}	
+}		
 
 .round-button {
 	width:25%;

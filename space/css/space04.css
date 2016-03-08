@@ -147,23 +147,23 @@ body {
 	line-height:1em;
 	margin-top:-0.5em;
 }	
+
 .arrow-left {
-	height: 100px;
+	width: 25%;
 }
 
 .arrow-left-button {
-	width: 10px;
-	height: 10px;
-    border: 40px solid transparency;
-    border-right: 20px solid #2f6db8;
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
+	width: 0; 
+	height: 0; 
+	border: 10px solid transparent;
+	border-right: 20px solid #2f6db8;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
 }
 
 .arrow-left-button:hover {
 	border-right: 20px solid #4f82cc;
-	background:#4f82cc;
 }
 
 .arrow-left a {
