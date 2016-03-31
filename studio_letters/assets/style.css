@@ -1,0 +1,29 @@
+.letter {
+	width: 100px;
+	height: 200px;
+	position: relative;
+	background-color: yellow;
+	display: inline-block;
+}
+
+.top {
+	top:  0;
+	left: 0;
+}
+
+.mid {
+	top: 80px;
+	left: 0px;
+}
+
+.vert {
+	width: 20px;
+	height: 200px;
+	position: absolute;
+	background-color: black;
+
+}
+
+.left {
+	top:;
+}
