@@ -45,12 +45,6 @@ li {
   cursor: pointer;
 }
 
-.sound {
-  opacity: 0;
-  width: 1px;
-  height: 1px;
-}
-
 .hide { display: none; }
 
 .column {
@@ -79,7 +73,10 @@ li {
   color: #fff;
 }
 
+.picture {
+	width: 100%;
+}
 .green { background: #B8E986; }
 .blue { background: #4A90E2; }
 .red { background: #D0021B; }
-.sol-lewitt { background-image: url('../img/sol-lewitt.gif'); }
+.sol-lewitt { background-image: url('../img/sol-lewitt.jpg'); }

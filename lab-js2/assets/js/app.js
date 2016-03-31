@@ -8,7 +8,7 @@ $('.nav-item').click(function() {
 	$('.content').addClass(button_name);
 
 	if (button_name == 'beyonce') {
-		$('.slay').removeClass('hide');
+		$('slay').removeClass('hide');
 	}
 });
 
