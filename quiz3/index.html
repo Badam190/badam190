@@ -9,17 +9,19 @@
 
   <body>
 
-   <a href = test.html> conversion_rate </a>
+   <h3>  8. document.write("8. The currency conversion rate for Yen is " + conversion_rate[1]); </h3>
 
-   <p id="demo"> </p>
+   <h3> 10. convert_currency(wallet, conversion_rate[1]); </h3>
 
-   <script>
-    var conversion_rate = ["0.88", "111.67", ".69"];
-    document.getElementById("demo").innerHTML=conversion_rate[1];
-    </script>
+  
 
 
-    <script src="assets/js/app.js"></script>
+  <div class="currency-button" onclick="convert_currency(wallet, conversion_rate[0])"><p id="currency-euros"> Euros </p> </div>
+  <div class="currency-button" onclick="convert_currency(wallet, conversion_rate[1])"><p id="currency-yen"> YEN </p> </div>
+  <div class="currency-button" onclick="convert_currency(wallet, conversion_rate[2])"><p id="currency-gbp"> Pounds </p> </div>
+
+<p> 2000 USD  =<p id="conv_wall"> </p> </p>
+  <script src="assets/js/app.js"></script>
 
   </body>
 </html>
