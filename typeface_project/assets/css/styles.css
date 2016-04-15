@@ -390,7 +390,7 @@ a:active {
 ul {
     list-style-type: none;
     font-size: 40px;
-    color: #fff;
+    color: #000;
     font-family: "Baskerville";
 	text-align: center;
 	line-height: 80px;
@@ -398,7 +398,7 @@ ul {
 
 li a {
     display: block;
-    color: #fff;
+    color: #000;
     padding: 8px 0px 8px 5px;
     text-decoration: none;
 }

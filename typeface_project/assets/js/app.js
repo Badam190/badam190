@@ -41,7 +41,7 @@ $('.f').click(function() {
 $('.i2').click(function() {
 	$(this).animate({
 		top: '-120px',
-		left: '480px', 
+		left: '500px', 
 	}, 1000);
 	$(this).css({transform: 'rotate(0deg)'})
 });
@@ -57,7 +57,7 @@ $('.c').click(function() {
 $('.i3').click(function() {
 	$(this).animate({
 		top: '-120px',
-		left: '580px', 
+		left: '270px', 
 	}, 1000);
 	$(this).css({transform: 'rotate(0deg)'})
 });
