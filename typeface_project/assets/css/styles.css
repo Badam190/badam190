@@ -1,0 +1,414 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.gradient {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  z-index: 0;
+  background: #28488D;
+  background: linear-gradient(#2B2F5A, black, black, #2B2F5A);
+  position: absolute;
+  left: calc(50% - 355px);
+  top: calc(70% - 210px);
+  border: 10px solid #000;
+  height: 500px;
+  width: 800px;
+}
+
+
+.wordbox {
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #0096ff;
+    left: calc(50% - 350px);
+    width: 700px;
+    height: 200px;
+    top: -220px;
+    z-index: -1;
+    display: inline-block;
+}
+
+#moveup {
+	position: relative;
+	top: -40px;
+}
+
+div {
+  vertical-align: top;
+}
+
+.container {
+	font-size: 0px;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	width: 200px;
+	border-bottom: 5px solid black;
+	z-index: 10;
+}
+
+#cityimage {
+	background-image: url("../img/city.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+.citiesbtn {
+    position: relative;
+    background-color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.menubutton{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    /*display: inline-block;*/
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #0096ff;
+    left: 50px;
+    top: 80px;
+    min-width: 160px;
+    line-height: 20px;
+    font-style: "Baskerville";
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #fff;
+    color: #0096ff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Baskerville";
+    text-align: center;
+    font-weight: normal;
+    position: absolute;
+    top: 50vh;
+    transform: translteY(-50%);
+    transform: rotate(-90deg);
+    z-index: 10;
+}
+
+.line {
+	width: 2px;
+	height: 100%;
+    background-color: #000;
+}
+
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #0096ff;
+}
+
+a:active {
+    color: #0096ff;
+}
+
+
+.bigstar { 
+    border-radius:50%;
+    width: 6px;
+    height: 6px; 
+    position: absolute;
+    background-color: #fff;
+    top: 20px;
+    left: 33px;
+    z-index: 1;
+}
+
+.b1  { top: 20px; left: 668px;}
+.b2  { top: 238px; left: 138px;}
+.b3  { top: 138px; left: 602px;}
+.b4  { top: 278px; left: 742px;}
+.b5  { top: 78px; left: 448px;}
+.b6  { top: 80px; left: 123px;}
+.b7  { top: 250px; left: 503px;}
+.b8  { top: 200px; left: 293px;}
+.b9  { top: 340px; left: 353px;}
+.b10 { top: 470px; left: 333px;}
+.b11 { top: 430px; left: 133px;}
+
+.midstar { 
+    border-radius:50%;
+    width: 4px;
+    height: 4px; 
+    position: absolute;
+    background-color: #fff;
+    top: 20px;
+    left: 33px;
+    z-index: 2;
+}
+
+.m1  { top: 40px; left: 568px;}
+.m2  { top: 268px; left: 38px;}
+.m3  { top: 168px; left: 512px;}
+.m4  { top: 318px; left: 642px;}
+.m5  { top: 128px; left: 248px;}
+.m6  { top: 320px; left: 323px;}
+.m7  { top: 150px; left: 403px;}
+.m8  { top: 100px; left: 493px;}
+.m9  { top: 290px; left: 233px;}
+.m10  { top: 370px; left: 133px;}
+.m11  { top: 330px; left: 33px;}
+
+.smallstar { 
+    border-radius:50%;
+    width: 3px;
+    height: 3px; 
+    position: absolute;
+    background-color: #fff;
+    top: 10px;
+    left: 43px;
+    z-index: 3;
+}
+
+.s1  { top: 10px; left: 468px;}
+.s2  { top: 68px; left: 138px;}
+.s3  { top: 68px; left: 302px;}
+.s4  { top: 218px; left: 142px;}
+.s5  { top: 328px; left: 448px;}
+.s6  { top: 400px; left: 223px;}
+.s7  { top: 350px; left: 303px;}
+.s8  { top: 300px; left: 193px;}
+.s9  { top: 590px; left: 533px;}
+.s10  { top: 670px; left: 533px;}
+
+.s11  { top: 330px; left: 123px;}
+.s12  { top: 168px; left: 38px;}
+.s13  { top: 268px; left: 202px;}
+.s14  { top: 418px; left: 542px;}
+.s15  { top: 328px; left: 648px;}
+.s16  { top: 400px; left: 623px;}
+.s17  { top: 150px; left: 703px;}
+.s18  { top: 200px; left: 93px;}
+.s19  { top: 390px; left: 233px;}
+.s20  { top: 470px; left: 533px;}
+.s21  { top: 30px; left: 23px;}
+
+.supersmstar { 
+    border-radius:50%;
+    width: 2px;
+    height: 2px; 
+    position: absolute;
+    background-color: #fff;
+    top: 10px;
+    left: 43px;
+    z-index: 4;
+}
+
+.ss1  { top: 10px; left: 368px;}
+.ss2  { top: 28px; left: 738px;}
+.ss3  { top: 38px; left: 602px;}
+.ss4  { top: 68px; left: 542px;}
+.ss5  { top: 258px; left: 670px;}
+.ss6  { top: 50px; left: 423px;}
+.ss7  { top: 145px; left: 303px;}
+.ss8  { top: 20px; left: 193px;}
+.ss9  { top: 190px; left: 703px;}
+.ss10  { top: 170px; left: 650px;}
+
+.ss11  { top: 210px; left: 368px;}
+.ss12  { top: 168px; left: 38px;}
+.ss13  { top: 18px; left: 702px;}
+.ss14  { top: 368px; left: 642px;}
+.ss15  { top: 118px; left: 470px;}
+.ss16  { top: 230px; left: 223px;}
+.ss17  { top: 410px; left: 303px;}
+.ss18  { top: 220px; left: 293px;}
+.ss19  { top: 110px; left: 33px;}
+.ss20  { top: 300px; left: 73px;}
+.ss21  { top: 200px; left: 223px;}
+
+.reallysmstar { 
+    border-radius:50%;
+    width: 1px;
+    height: 1px; 
+    position: absolute;
+    background-color: #fff;
+    top: 10px;
+    left: 43px;
+    z-index: 5;
+}
+
+.rs1  { top: 210px;  left: 213px;}
+.rs2  { top: 198px;  left: 108px;}
+.rs3  { top: 18px;   left: 104px;}
+.rs4  { top: 178px;  left: 12px;}
+.rs5  { top: 150px;  left: 60px;}
+
+.rs6  { top: 24px;   left: 43px;}
+.rs7  { top: 110px;  left: 3px;}
+.rs8  { top: 70px;   left: 380px;}
+.rs9  { top: 100px;  left: 595px;}
+.rs10 { top: 109px;  left: 218px;}
+
+.rs11 { top: 200px;  left: 223px;}
+.rs12 { top: 115px;  left: 763px;}
+.rs13 { top: 220px;  left: 503px;}
+.rs14 { top: 335px;  left: 53px;}
+.rs15 { top: 240px;  left: 133px;}
+
+.rs16 { top: 250px;  left: 573px;}
+.rs17 { top: 260px;  left: 423px;}
+.rs18 { top: 370px;  left: 503px;}
+.rs19 { top: 280px;  left: 313px;}
+.rs20 { top: 290px;  left: 703px;}
+
+.rs21 { top: 365px;  left: 208px;}
+.rs22 { top: 378px;  left: 428px;}
+.rs23 { top: 338px;  left: 312px;}
+.rs24 { top: 418px;  left: 52px;}
+.rs25 { top: 378px;  left: 140px;}
+
+.rs26 { top: 380px;  left: 723px;}
+.rs27 { top: 428px;  left: 323px;}
+.rs28 { top: 370px;  left: 743px;}
+.rs29 { top: 450px;  left: 523px;}
+.rs30 { top: 477px;   left: 523px;}
+
+.rs31 { top: 210px;  left: 403px;}
+.rs32 { top: 98px;   left: 308px;}
+.rs33 { top: 18px;   left: 314px;}
+.rs34 { top: 178px;  left: 242px;}
+.rs35 { top: 150px;  left: 250px;}
+
+.rs36 { top: 24px;   left: 563px;}
+.rs37 { top: 110px;  left: 403px;}
+.rs38 { top: 70px;   left: 440px;}
+.rs39 { top: 310px;  left: 395px;}
+.rs40 { top: 109px;  left: 428px;}
+
+.rs41 { top: 200px;  left: 423px;}
+.rs42 { top: 215px;  left: 363px;}
+.rs43 { top: 320px;  left: 303px;}
+.rs44 { top: 335px;  left: 253px;}
+.rs45 { top: 240px;  left: 243px;}
+
+.rs46 { top: 250px;  left: 653px;}
+.rs47 { top: 270px;  left: 623px;}
+.rs48 { top: 320px;  left: 703px;}
+.rs49 { top: 290px;  left: 613px;}
+.rs50 { top: 340px;  left: 593px;}
+
+.rs51 { top: 10px;  left: 723px;}
+.rs52 { top: 70px;  left: 703px;}
+.rs53 { top: 20px;  left: 643px;}
+.rs54 { top: 90px;  left: 713px;}
+.rs55 { top: 40px;  left: 693px;}
+
+/*nyc*/
+.pegasus   {position:absolute; top:  10px;  left:10px; }
+.cygnus    {position:absolute; top: 300px;  left:10px;}
+.taurus    {position:absolute; top:  10px;  left:260px;}
+.gemini    {position:absolute; top: 310px;  left:600px;}
+.cetus     {position:absolute; top: 150px;  left:190px;}
+.eridanus  {position:absolute; top: 200px;  left:340px;}
+.leo       {position:absolute; top:  10px;  left:450px;}
+.cepheus   {position:absolute; top: 150px;  left: 570px;}
+.scorpios  {position:absolute; top:  70px;  left: 600px;}
+.grus2     {position:absolute; top:  150px;  left: 7px;}
+
+/*beijing*/
+.eridanus2 {position: absolute; top:  0px; left: 10px;}
+.sag       {position: absolute; top: 260px; left: 370px;}
+.orion     {position: absolute; top:   0px; left: 260px;}
+.gemini2   {position: absolute; top:  10px; left: 560px;transform: rotate(-30deg)}
+.cepheus2  {position: absolute; top: 260px; left: 150px;}
+.scorpios2 {position: absolute; top: 280px; left: 40px;}
+.cass      {position: absolute; top:   0px; left: 400px;}
+.cetus2    {position: absolute; top: 240px; left: 600px;}
+.hercules  {position: absolute; top:  210px; left: 320px;}
+
+/*bangkok*/
+.sag2      {position: absolute;  top: 10px; left: 10px;}
+.aquila    {position: absolute;  top: 60px; left: 370px;}
+.bootes    {position: absolute;  top: 0px; left: 170px;}
+.gemini3   {position: absolute;  top: 320px;left: 150px;}
+.cetus3    {position: absolute;  top: 60px; left: 570px;}
+.cass2     {position: absolute;  top: 260px;left: 570px;}
+.cygnus2   {position: absolute;  top: 260px;left: 370px;}c
+
+/*capetown*/
+.virgo     {position: absolute;  top: 10px; left: 10px;}
+.cepheus3  {position: absolute;  top: -60px;left: 270px;}
+.gemini3   {position: absolute;  top: 100px;left: 380px;}
+.centaurus {position: absolute;  top: 235px;left: 410px;}
+.bootes2   {position: absolute;  top: 60px; left: 570px;}
+.cass2     {position: absolute;  top: 60px; left: 100px;}
+.grus      {position: absolute;  top: 11px;left: 8px;}
+
+
+.background_img {
+	position: absolute;
+	width: 100%;
+    z-index: 0;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 40px;
+    color: #fff;
+    font-family: "Baskerville";
+	text-align: center;
+	line-height: 80px;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 8px 0px 8px 5px;
+    text-decoration: none;
+}
+
+
+li a:visited {
+	color: black;
+}
+
+li a:hover {
+    color: #0096ff;
+}
+
