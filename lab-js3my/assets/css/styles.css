@@ -1,0 +1,35 @@
+.hide {
+	display: : none;
+}
+
+.red1 { color: #B40404;}
+.red2 { color: #FE2E64;}
+.red3 { color: #B40431;}
+.red4 { color: #3B0B0B;}
+.red5 { color: #FA5858;}
+.red6 { color: #FF0000;}
+
+.object {
+	font-size: 40px;
+	margin-top: 200px;
+	margin: 20px;
+	font-family: "impact";
+}
+
+.button {
+	font-size: 30px;
+	margin-top: 20px;
+	font-family: "avenir";
+	text-decoration: none;
+	border: solid 2px black;
+	padding: 10px;
+}
+
+
+.button:visited {
+	color: pink;
+}
+
+.button:active {
+	color: red;
+}
