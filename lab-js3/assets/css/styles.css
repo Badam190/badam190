@@ -1,0 +1,12 @@
+.hide {
+	display: : none;
+}
+
+.yellow { color: yellow;}
+.red { color: red;}
+.blue { color: blue;}
+
+.object {
+	font-size: 40px;
+	margin: 20px;
+}
