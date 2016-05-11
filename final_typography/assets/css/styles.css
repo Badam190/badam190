@@ -1,0 +1,90 @@
+body {
+	background-color: #474747;
+}
+
+.f {
+    font-size: 50px;
+    font-family: "helvetica";
+    margin: 10px;
+    position: relative;
+    left: calc(50% - 600px);
+    top: 170px;
+    text-align: center;
+    color: #182542;
+    font-style: none;
+    cursor:url(./cursors/starcursor.jpg), 0 0, move;
+}
+
+.f:link {
+text-decoration: none;
+cursor:url(./cursors/starcursor.jpg), 0 0, move; 
+}
+
+.f:hover {
+text-decoration: italic;
+cursor:url(./cursors/starcursor.jpg), 0 0, move; 
+color: #666666;
+}
+
+.f:visited {
+text-decoration: none;
+cursor:url(./cursors/starcursor.jpg), 0 0, move; 
+color: #182542;
+}
+
+.f:active {
+text-decoration: none;
+cursor:url(./cursors/starcursor.jpg), move; 
+color: #666666;
+}
+
+.citiesbtn {
+    position: relative;
+    background-color: #474747;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    z-index: 0;
+    font-family: "ArnoPro";
+}
+
+.menubutton{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    /*display: inline-block;*/
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #182542;
+    left: 50px;
+    top: 80px;
+    min-width: 160px;
+    line-height: 20px;
+    font-style: "ArnoPro";
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #fff;
+    color: #0096ff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
