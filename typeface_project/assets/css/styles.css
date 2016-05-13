@@ -22,12 +22,14 @@ body {
   width: 800px;
 }
 
+/* position gadient in the middle, make button that says next message or something */
+
 
 .wordbox {
     position: relative;
     background-color: #fff;
     border: 2px solid #0096ff;
-    left: calc(50% - 350px);
+    vertical-align: 50vw;
     width: 700px;
     height: 200px;
     top: -220px;
@@ -46,6 +48,7 @@ div {
 
 .container {
 	font-size: 0px;
+
 }
 
 .header {
@@ -61,56 +64,6 @@ div {
 	background-image: url("../img/city.jpg");
 	background-size: cover;
 	height: 100vh;
-}
-
-.citiesbtn {
-    position: relative;
-    background-color: #fff;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    z-index: 0;
-}
-
-.menubutton{
-    position: absolute;
-    top: 10px;
-    right: 30px;
-}
-
-.dropdown {
-    position: absolute;
-    top: 10px;
-    left: 30px;
-    /*display: inline-block;*/
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    border: 2px solid #0096ff;
-    left: 50px;
-    top: 80px;
-    min-width: 160px;
-    line-height: 20px;
-    font-style: "Baskerville";
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #fff;
-    color: #0096ff;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 h1 {

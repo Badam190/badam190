@@ -10,7 +10,6 @@ body {
   	border: px solid black;
   	margin-left: 20px;
   	margin-top: 20px;
-
 }
 
 .f1 {
@@ -25,10 +24,12 @@ body {
 	text-align: center;
 	line-height: 240px;
 	color: white;
+	z-index: 100;
 }
 
 .f1:hover {
-	color: black;
+	z-index: 100;
+	background-color: black;
 }
 
 .f2 {
@@ -43,10 +44,12 @@ body {
 	text-align: center;
 	line-height: 120px;
 	color: white;
+	z-index: 200;
 }
 
 .f2:hover {
-	color: black;
+	background-color: black;
+	z-index: 200;
 }
 
 
@@ -62,10 +65,12 @@ body {
 	text-align: center;
 	line-height: 150px;
 	color: white;
+	z-index: 200;
 }
 
 .f3:hover {
-	color: black;
+	background-color: black;
+	z-index: 200;
 }
 
 .f4 {	
@@ -80,10 +85,12 @@ body {
 		text-align: center;
 		line-height: 100px;
 	color: white;
+	z-index: 200;
 }
 
 .f4:hover {
-	color: black;
+	background-color: black;
+	z-index: 200;
 }
 
 .f5 {	
@@ -98,10 +105,12 @@ body {
 	text-align: center;
 	line-height: 150px;
 	color: white;
+	z-index: 200;
 }
 
 .f5:hover {
-	color: black;
+	background-color: black;
+	z-index: 200;
 }
 
 .f6 {	
@@ -116,10 +125,12 @@ body {
 	text-align: center;
 	line-height: 180px;
 	color: white;
+	z-index: 200;
 }
 
 .f6:hover {
-	color: black;
+	background-color: black;
+	z-index: 200;
 }
 
 .f7 {	
@@ -134,10 +145,12 @@ body {
 	text-align: center;
 	line-height: 180px;
 	color: white;
+	z-index: 200;
 }
 
 .f7:hover {
-	color: black;
+	background-color: black;
+	z-index: 200;
 }
 
 .f8 {	
@@ -152,10 +165,12 @@ body {
 	text-align: center;
 	line-height: 120px;
 	color: white;
+	z-index: 200;
 }
 
 .f8:hover {
-	color: black;
+	background-color: black;
+	z-index: 200;
 }
 
 .f9 {	
@@ -171,10 +186,12 @@ body {
 	text-align: center;
 	line-height: 100px;
 	color: white;
+	z-index: 200;
 }
 
 .f9:hover {
-	color: black;
+	background-color: black;
+	z-index: 100;
 }
 
 .f10 {	
@@ -189,10 +206,12 @@ body {
 	text-align: center;
 	line-height: 170px;
 	color: white;
+	z-index: 100;
 }
 
 .f10:hover {
-	color: black;
+	background-color: black;
+	z-index: 100;
 }
 
 .f11 {
@@ -210,8 +229,10 @@ body {
 	text-align: center;
 	line-height: 150px;
 	color: white;
+	z-index: 200;
 }
 
 .f11:hover {
-	color: black;
+	background-color: black;
+	z-index: 200;
 }

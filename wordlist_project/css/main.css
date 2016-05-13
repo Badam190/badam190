@@ -72,14 +72,6 @@ fieldset {
     padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
-}
-
 .header {
     position: fixed;
     top: 0;
@@ -110,21 +102,62 @@ textarea {
 }
 
 .stopbutton {
-    width: 90px;
-    height: 50px;
+    width: 100px;
+    height: 60px;
     position: fixed;
     left: 1100px;
-    top: 375px;
+    top: 400px;
     font-size: 24px;
     color: #1A4581;
     z-index: 0;
     font-family: "menlo";
     border: 3px solid #1A4581;
-    background-color: #E8E8E8; 
+    background-color: #e2e2e2;
     text-decoration: none;
     text-align: center;
-    line-height: 50px;
+    line-height: 55px;
 }
+
+.stopbutton:link {
+    color: #1A4581;
+}
+
+.stopbutton:visited {
+}
+
+.stopbutton:hover {
+    font-size: 26px; 
+}
+
+
+.stopbutton:active {
+    color: #1A4581;
+}
+
+.startbutton_disabled {
+    width: 94px;
+    height: 54px;
+    position: fixed;
+    left: 1100px;
+    top: 400px;
+    font-size: 24px;
+    color: #1A4581;
+    z-index: 0;
+    font-family: "menlo";
+    border: 3px solid #1A4581;
+    background-color: #e2e2e2;
+    text-decoration: none;
+    text-align: center;
+    line-height: 58px;
+}
+
+.startbutton_disabled:hover {
+    font-size: 26px; 
+}
+
+.startbutton:disabled { 
+    color: #424242; 
+    border: 3px solid #424242;}
 
 
 @keyframes fadedown {
@@ -139,7 +172,7 @@ textarea {
     z-index: 200;
     border: 6px solid #000;
     display: none;
-    margin: 20px;
+    margin: 30px;
     height: 300px;
     width: 0;
     animation-name: fadedown;
@@ -149,11 +182,8 @@ textarea {
 
 .linewrap {
     display: inline-block;
+    vertical-align: top;
 }
-
-
-
-
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -176,10 +206,10 @@ body {
 
 .poem {
     display: block;
-    text-align: center;
-    font-family: "avenir";
+    font-family: "menlo";
     position: absolute;
-    top: 50vh;
+    top: 350px;
+    left: 20px;
 }
 
 
@@ -189,8 +219,9 @@ p {
     width: 100%;
     position: fixed;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 30px;
     z-index: -1;
+    max-width: 60%;
 }
 
 
