@@ -15,11 +15,43 @@ body {
   background: #28488D;
   background: linear-gradient(#2B2F5A, black, black, #2B2F5A);
   position: absolute;
-  left: calc(50% - 355px);
-  top: calc(70% - 210px);
+  left: 220px;
+  top: calc(60% - 210px);
   border: 10px solid #000;
   height: 500px;
-  width: 800px;
+  width: 800px;   
+}
+
+.button {
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    left: 330px;
+    top: 530px;
+    font-size: 24px;
+    color: #1A4581;
+    z-index: 0;
+    font-family: "futura";
+    border: 3px solid #1A4581;
+    text-decoration: none;
+    text-align: center;
+    line-height: 55px;
+}
+
+.stopbutton:link {
+    color: #1A4581;
+}
+
+.stopbutton:visited {
+}
+
+.stopbutton:hover {
+    font-size: 26px; 
+}
+
+
+.stopbutton:active {
+    color: #1A4581;
 }
 
 /* position gadient in the middle, make button that says next message or something */
@@ -29,12 +61,11 @@ body {
     position: relative;
     background-color: #fff;
     border: 2px solid #0096ff;
-    vertical-align: 50vw;
-    width: 700px;
-    height: 200px;
-    top: -220px;
+    width: 800px;
+    height: 175px;
+    top: -200px;
     z-index: -1;
-    display: inline-block;
+    display: inline-block
 }
 
 #moveup {
