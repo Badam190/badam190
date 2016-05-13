@@ -156,7 +156,7 @@ function count_back() {
 	}, 1000);
 }
 
-// var startbutton = 0;
+var startbutton;
 // $('.midbit').ready(function () {
 // 	$('.startbutton').each(function() {
 // 		if($(this).hasClass("disabled")){
@@ -237,7 +237,7 @@ var addword = function (typeOfword) {
 
 
 }
-};
+}
 
 // need a function that works the same as timer but backwards ... and it needs to start at whatever timestart is when you pageone is revealed
 
